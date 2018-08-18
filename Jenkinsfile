@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Build'){
             steps {
-                sh '/Users/slim/tools/apache-maven-3.5.4/bin/mvn clean package'
+                sh '{localMaven}/bin//mvn clean package'
             }
             post {
                 success {
