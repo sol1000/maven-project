@@ -25,3 +25,5 @@ sudo service tomcat7 start
 cd /var/log/tomcat7
 
 
+http://52.55.10.130:8080/webapp
+http://18.207.0.114:8080/webapp
