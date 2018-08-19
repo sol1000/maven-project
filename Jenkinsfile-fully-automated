@@ -16,6 +16,11 @@ pipeline {
     }
 
     stages{
+        stage('Touch'){
+            steps {
+                sh 'touch /Users/Shared/i-am-jenkins'
+            }
+        }
         stage('Build'){
             steps {
                 sh 'mvn clean package'
